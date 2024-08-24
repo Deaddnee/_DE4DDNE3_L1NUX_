@@ -5,3 +5,4 @@ wget https://repo.steampowered.com/steam/archive/precise/steam_latest.deb
 wget https://github.com/KRTirtho/spotube/releases/download/v3.8.0/Spotube-linux-x86_64.deb
 apt install ./vesktop_1.5.3_amd64.deb ./steam_latest.deb ./Spotube-linux-x86_64.deb flatpak gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.usebottles.bottles
